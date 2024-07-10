@@ -40,6 +40,8 @@ public class Attack implements MobControl {
             }
         },0,20);
     }
+    
+
 
     public void stop(){
         for (PolarBear polarBear : mob){
