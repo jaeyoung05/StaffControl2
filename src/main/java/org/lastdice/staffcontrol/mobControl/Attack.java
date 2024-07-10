@@ -26,7 +26,7 @@ public class Attack implements MobControl {
         for (PolarBear polarBear : mob) {
             polarBear.setAI(true);
             if (entity == polarBear || entity == player) {
-                player.sendMessage("불가");
+                player.sendMessage("불가능");
             } else {
                 polarBear.setTarget((LivingEntity) entity);
             }
