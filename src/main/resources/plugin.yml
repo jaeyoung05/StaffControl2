@@ -1,0 +1,4 @@
+name: staffControl
+version: '${version}'
+main: org.lastdice.staffcontrol.StaffControl
+api-version: '1.20'
